@@ -38,22 +38,22 @@ sudo ./aws/install
 14. In the search bar open IAM in a new tab.
 15. Select Users.
 16. Click on Create user.
-17. Name it Pluralsight_Learner.
-18. Click on Next.
-19. Click on Attach policies directly.
-20. Attach the policy AmazonS3FullAccess.
-21. Click on Next.
-22. Click on Create User.
-23. Click on your new user.
-24. Click on the Security Credentials tab.
-25. Click on Create access key.
-26. Check Command Line Interface (CLI).
-27. Check the box for confirmation.
-28. Click on Next.
-29. Click on Create access key.
-30. Make a copy of the Access Key ID and Secret Access Key.
-31. Return to Session Manager.
-32. Run the command:
+17. Name it `Ecm3_Learner`.
+19. Click on Next.
+20. Click on Attach policies directly.
+21. Attach the policy AmazonS3FullAccess.
+22. Click on Next.
+23. Click on Create User.
+24. Click on your new user.
+25. Click on the Security Credentials tab.
+26. Click on Create access key.
+27. Check Command Line Interface (CLI).
+28. Check the box for confirmation.
+29. Click on Next.
+30. Click on Create access key.
+31. Make a copy of the Access Key ID and Secret Access Key.
+32. Return to Session Manager.
+33. Run the command:
 ```bash
 aws configure --profile terraform-user
 ```
