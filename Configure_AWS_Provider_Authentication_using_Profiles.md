@@ -2,6 +2,8 @@
 
 In this section you will learn how to authentication a Command Line Interface (CLI) to your AWS account using an AWS profile. This is important because it gives terraform access to your environment and the ability to make changes like adding or deleting resources.
 
+<img width="1622" height="771" alt="image" src="https://github.com/user-attachments/assets/c990dbda-0993-48f0-9a66-d5b330780117" />
+
 1. In the search bar open EC2.
 2. Click on Instances (running).
 3. Click on the checkbox next to your EC2 instance.
