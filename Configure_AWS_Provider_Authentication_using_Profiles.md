@@ -86,7 +86,7 @@ In this section you will install terraform and then customize the main.tf file s
 
 1. Run the command:
 ```bash
-git clone https://github.com/pluralsight-cloud/Lab-Deploying-and-Managing-AWS-Infrastructure-with-Terraform.git
+git clone https://github.com/Yahia-M/Lab-Deploying-and-Managing-AWS-Infrastructure-with-Terraform.git
 ```
 2. Run the command:
 ```bash
