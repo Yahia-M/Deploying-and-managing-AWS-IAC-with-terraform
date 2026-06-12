@@ -1,4 +1,4 @@
-# Configure AWS Provider Authentication using Profiles
+# Deploying and managing AWS IAC with terraform
 
 In this section you will learn how to authentication a Command Line Interface (CLI) to your AWS account using an AWS profile. This is important because it gives terraform access to your environment and the ability to make changes like adding or deleting resources.
 
