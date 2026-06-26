@@ -123,6 +123,13 @@ In this section you created the terraform file you need to create your S3 bucket
 # Validate and Deploy Infrastructure using Terraform
 
 1. Now run the command:
+   
+```bash
+terraform fmt 
+```
+```bash
+terraform validate
+```
 ```bash
 terraform plan
 ```
