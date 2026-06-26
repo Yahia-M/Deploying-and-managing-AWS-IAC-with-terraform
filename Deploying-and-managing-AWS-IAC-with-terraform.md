@@ -47,20 +47,22 @@ sudo ./aws/install
 23. Click on Create access key.
 24. Make a copy of the Access Key ID and Secret Access Key.
 25. Return to Session Manager.
+## usage Sandbox
 26. Run the command:
 ```bash
-aws configure --profile terraform-user
+aws configure 
 ```
 27. Enter the following information when prompted:
 
     - AWS Access Key ID: <your key>
     - AWS Secret Access Key: <your secret>
+    - AWS Token (pour une connexion sandbox): <your secret>
     - Default region: `us-east-1`
     - Default output format: `json`
 
 28. Run this command to confirm you are authenticated: 
 ```bash
-aws sts get-caller-identity --profile terraform-user
+aws sts get-caller-identity 
 ```
 
 This process creates these local files:
