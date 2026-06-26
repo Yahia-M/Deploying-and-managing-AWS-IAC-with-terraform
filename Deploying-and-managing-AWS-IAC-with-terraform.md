@@ -106,13 +106,11 @@ sudo chmod +x terraform.sh
 terraform -version
 ```
 to confirm the installation works. Now you're going to create the main terraform file that will create the resource.
-6. Run the command:
-```bash
-nano main.tf
-```
+6. open main.tf
 7. In the provider section change profile to `terraform-user` and region to `us-east-1`.
 8. In the resource section change bucket to something unique, you can use this placeholder and just change the numbers at the end `my-unique-terraform-lab-bucket-12345-[Add some numbers!]`. If it's not unique it will tell you at creation and you will need to change it.
-9. The tags section is optional and just informational so you can leave that as is. Save and close the file using `Control+X`, `SHIFT+Y `and then press enter.
+9. change EC2 instance_type to `t2.micro` than IAM name `lab-ecm2-s3-ec2-policy`
+10. Then save the file `CRTL+S`
 10. Now to prepare for deployment run:
 ```bash
 terraform init
