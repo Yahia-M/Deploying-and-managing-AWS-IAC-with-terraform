@@ -55,8 +55,8 @@ aws configure --profile terraform-user
 
     - AWS Access Key ID: <your key>
     - AWS Secret Access Key: <your secret>
-    - Default region: us-east-1
-    - Default output format: json
+    - Default region: `us-east-1`
+    - Default output format: `json`
 
 28. Run this command to confirm you are authenticated: 
 ```bash
