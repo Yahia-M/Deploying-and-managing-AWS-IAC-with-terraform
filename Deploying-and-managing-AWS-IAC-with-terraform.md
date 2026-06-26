@@ -4,29 +4,24 @@ In this section you will learn how to authentication a Command Line Interface (C
 
 <img width="1622" height="771" alt="image" src="https://github.com/user-attachments/assets/c990dbda-0993-48f0-9a66-d5b330780117" />
 
-1. In the search bar open EC2.
-2. Click on Instances (running).
-3. Click on the checkbox next to your EC2 instance.
-4. Select Connect.
-5. Open SSM Session Manager.
-6. Click on Connect.
-7. Run the command:
+1. Click on Connect.
+2. Run the command:
 ```bash
 cd ~
 ```
-8. Run the command:
+3. Run the command:
 ```bash
 sudo apt update
 ```
-9. Run the command:
+4. Run the command:
 ```bash
 sudo apt install unzip -y
 ```
-10. Run the command:
+5. Run the command:
 ```bash
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 ```
-11. Run the command:
+6. Run the command:
 ```bash
 unzip awscliv2.zip
 ```
