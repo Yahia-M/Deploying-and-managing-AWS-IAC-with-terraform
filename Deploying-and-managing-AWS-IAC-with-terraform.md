@@ -81,6 +81,9 @@ In this section you will install terraform and then customize the main.tf file s
 - **tags**: Optional metadata attached to the resource for organization, filtering, and cost tracking.
 
 1. Run the command:
+   - ouvre un nouveau terminal `click sur le signe +`
+     <img width="207" height="55" alt="image" src="https://github.com/user-attachments/assets/2b5dc8e6-2a98-4f2c-bc94-915cdad3b9df" />
+
 ```bash
 git clone https://github.com/Yahia-M/Lab-Deploying-and-Managing-AWS-Infrastructure-with-Terraform.git
 
