@@ -47,7 +47,6 @@ sudo ./aws/install
 23. Click on Create access key.
 24. Make a copy of the Access Key ID and Secret Access Key.
 25. Return to Session Manager.
-## usage AWS Sandbox
 26. Run the command:
 ```bash
 aws configure --profile terraform-user
