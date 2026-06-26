@@ -4,62 +4,61 @@ In this section you will learn how to authentication a Command Line Interface (C
 
 <img width="1622" height="771" alt="image" src="https://github.com/user-attachments/assets/c990dbda-0993-48f0-9a66-d5b330780117" />
 
-1. Click on Connect.
-2. Run the command:
+1. Run the command:
 ```bash
 cd ~
 ```
-3. Run the command:
+2. Run the command:
 ```bash
 sudo apt update
 ```
-4. Run the command:
+3. Run the command:
 ```bash
 sudo apt install unzip -y
 ```
-5. Run the command:
+4. Run the command:
 ```bash
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 ```
-6. Run the command:
+5. Run the command:
 ```bash
 unzip awscliv2.zip
 ```
-12. Run the command:
+6. Run the command:
 ```bash
 sudo ./aws/install
 ```
-13. Return to the Instances tab.
-14. In the search bar open IAM in a new tab.
-15. Select Users.
-16. Click on Create user.
-17. Name it `Ecm3_Learner`.
-19. Click on Next.
-20. Click on Attach policies directly.
-21. Attach the policy AmazonS3FullAccess.
+7. Return to the Instances tab.
+8. In the search bar open IAM in a new tab.
+9. Select Users.
+10. Click on Create user.
+11. Name it `Ecm3_Learner`.
+12. Click on Next.
+13. Click on Attach policies directly.
+14. Attach the policy AmazonS3FullAccess.
+15. Click on Next.
+16. Click on Create User.
+17. Click on your new user.
+18. Click on the Security Credentials tab.
+19. Click on Create access key.
+20. Check Command Line Interface (CLI).
+21. Check the box for confirmation.
 22. Click on Next.
-23. Click on Create User.
-24. Click on your new user.
-25. Click on the Security Credentials tab.
-26. Click on Create access key.
-27. Check Command Line Interface (CLI).
-28. Check the box for confirmation.
-29. Click on Next.
-30. Click on Create access key.
-31. Make a copy of the Access Key ID and Secret Access Key.
-32. Return to Session Manager.
-33. Run the command:
+23. Click on Create access key.
+24. Make a copy of the Access Key ID and Secret Access Key.
+25. Return to Session Manager.
+26. Run the command:
 ```bash
 aws configure --profile terraform-user
 ```
-33. Enter the following information when prompted:
+27. Enter the following information when prompted:
 
     - AWS Access Key ID: <your key>
     - AWS Secret Access Key: <your secret>
     - Default region: us-east-1
     - Default output format: json
 
-34. Run this command to confirm you are authenticated: 
+28. Run this command to confirm you are authenticated: 
 ```bash
 aws sts get-caller-identity --profile terraform-user
 ```
